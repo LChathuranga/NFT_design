@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+KR:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+KR:wght@900&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#navBar{
+    height: 110px;
+    background-color: #162869;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg_blue{
+    width: 74%;
+    height: 302px;
+    background-color: #162869;
+    position: absolute;
+    top: 90px;
+}
+.navBar{
+    position: absolute;
+    top: -10px;
+}
+.nav_btn{
+    width: 193px;
+    height: 50px;
+    color: #444444;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.nav_last{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.nav_last div{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(169, 222, 238, 0.1);
+    margin-left: 10px;
+}
+.nav_last img{
+    margin: 14px;
+}
+.discover{
+ width: 100%;
+ height: 178px;
+ position: absolute;
+ top: 80px;
+ background-color: rgba(255, 255, 255, 0.1);   
+}
+.discover div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.discover h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 53px;
+    color: #fff;
+}
+.search{
+    width: 409px;
+    height: 98px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    padding: 0 0 37px 0;
+}
+.search input{
+    flex: 1;
+    width: 409px;
+    height: 95px;
+    border: none;
+    margin-bottom: 3px;
+    padding-left: 30px;
+}
+.search img{
+    margin-left: 34px;
+    
+}
+.p_card{
+    width: 100%;
+    max-width: 360px;
+    height: 774px;
+    color: #fff;
+    border: none;
+    border-radius: 0 0 60px 0;
+    margin-top: 64px;
+}
+.card_body > p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #183B56;
+    margin: 30px 25px;
+}   
+.prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.prices > div {
+    width: 145px;
+    height: 98px;
+    background-color: #EEF2FF;
+}
+.prices div p{
+    margin: 20px 0 10px 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17.73px;
+    color: #000;
+}
+.prices div h3{
+    margin-left: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+.artist{
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.artist div div p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17.73px;
+    color: #000;
+}
+.artist div div h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30.6px;
+    color: #000;
+}
+.popular_btn button{
+    width: 310px;
+    height: 69px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 25px;
+    background: linear-gradient(to right, #D4EC55 100%,#74AE40 100%);
+}
+.box{
+    width: 121px;
+    height: 57px;
+    margin-left: 25px;
+    border: 1px solid #162869;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box p{
+    position: absolute;
+    top: 13PX;
+    color: #000;
+}
+#all{
+    width: 121px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2F463;
+    border: none;
+    position: relative;
+    color: #444444;
+}
+#all P{
+    position: absolute;
+    top: 13PX;
+}
+.pop_head {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700px;
+    font-size: 34px;
+    line-height: 47.6px;
+    color: #000;
+} 
+.pop_arts{
+    margin-top: 30px;
+}
+.hot_head{
+    margin-top: 70px;
+}

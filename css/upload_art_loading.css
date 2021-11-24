@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
+
+.drag_drop{
+    background-image: url(../src/imgs/front20.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+}
+.overlay{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    width: 580px;
+    height: 600px;
+    background-color: rgba(191, 191, 191,0.1);
+}
+.progress_details{
+    width: 520px;
+    height: 140px;
+    position: absolute;
+    bottom: 50px;
+    left: 52px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.prograssBar{
+    margin: auto;
+    width: 460px;
+    height: 20px;
+    background-color: rgba(169, 222, 238, 0.2);
+    position: absolute;
+    top: 85px;
+    left: 30px;
+}
+.progress_inside{
+    width: 80%;
+    height: 100%;
+    background-color: #162869;
+}
+.pecentage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px 30px;
+}
+.pecentage p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+.pecentage h3{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000;
+}

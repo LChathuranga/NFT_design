@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#navBar{
+    height: 110px;
+    background-color: #162869;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navBar{
+    position: absolute;
+    top: -10px;
+}
+.nav_btn{
+    width: 193px;
+    height: 50px;
+    color: #444444;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.nav_last{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.nav_last div{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(169, 222, 238, 0.1);
+    margin-left: 10px;
+}
+.nav_last img{
+    margin: 14px;
+}
+.img{
+    max-width: 600px;
+    height: 600px;
+ }
+ .first_line{
+    margin-top: 90px;
+ }
+.first_line > div > img{
+    width: 100%;
+} 
+.f_txt h3{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 53px;
+    line-height: 74px;
+    color: #162869;
+    margin-bottom: 40px;
+}
+.f_txt p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #000;
+}
+.f_txt div{
+    max-width: 470px;
+}
+.art_card{
+    width: 218px;
+    height: 93px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.art_card > img{
+    margin-left: 20px;
+}
+.art_card_txt1 p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000;
+    margin-top: 21px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+}
+.art_card_txt2 p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+    margin-left: 5px;
+}
+.pricing_card{
+    margin-top: 20px;
+}
+.pricing p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 0px;
+    color: #000;
+}
+.pricing h3{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    color: #000;
+}   
+.place_bid, .buy{
+    width: 155px;
+    height: 69px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #162869;
+}
+.place_bid p, .buy p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    padding-top: 20px;
+    color: #fff;
+}
+.buy{
+    background-color: #fff;
+}
+.buy p{
+    color: #162869;
+}
+.more{
+    margin-top: 136px;
+}
+#more p{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 47.6px;
+    color: #162869;
+    margin-bottom: 35px;
+}
+#view{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000;
+    text-align: end;
+    text-decoration: underline;
+}
+.more_card{
+    width: 360px;
+    height: 466px;
+    border: none;
+    border-radius: 0 0 80px 0;
+}
+.more_card p{
+    margin: 30px 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+.bid_card{
+    width: 470px;
+    height: 368.24px;
+    display: flex;
+    flex-direction: row;
+}
+.minus{
+    width: 60px;
+    height: 60px;
+    margin: 80px 30px 0 30px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#minus{
+    margin-left: 20px;
+}
+.middle{
+    width: 236px;
+    height: 98px;
+    margin-top: 60.47px;
+}
+.middle p{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 47.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px; 
+    color: #000;  
+}
+.bid_currency{
+    position: absolute;
+    top: 180px;
+    left: 184px;
+}
+.bid_currency p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    margin-top: 0;
+}
+.bid_btn{
+    position: relative;
+    top: -10px;
+    left: 50px;
+}

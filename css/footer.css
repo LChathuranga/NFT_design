@@ -1,0 +1,110 @@
+footer{
+    height: 1056px;
+    width: 100%;
+    background-color: #162869;
+    padding: 65px;
+    margin-top: 116px;
+}
+.bg_green{
+    margin-bottom: 138px;
+    width: 100%;
+    height: 452px;
+    background: radial-gradient(#E0F359  0%, rgba(224, 243, 89, 0.3)  100%);
+    display: flex;
+    justify-content: center;
+}
+.hr{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    border-top: 2px solid #E0F359;
+}
+.footer_down{
+    padding-top: 50px;
+}
+.footer_down p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #fff;
+    padding: 0px 10px;
+}
+.footer_txt p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    padding-top: 30px;
+}
+.footer_k_txt{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+}
+.footer_k_txt1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    padding: 10px;
+}
+.footer_copyright{
+    position: absolute;
+    bottom: -120px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.footer_up{
+    width: 45%;
+    max-width: 1232px;
+    margin: auto;
+}
+.footer_up h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+    vertical-align: top;
+    text-align: center;
+}
+.bg_green input{
+    width: 513px;
+    height: 56px;
+    background-color: #fff;
+    color: #fff;
+    border: none;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin: auto;
+}
+.bg_green button{
+    margin-left: 20px;
+    width: 147px;
+    height: 56px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #e0f359 100%, #E0F359 30%);
+}
+.footer_up p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 30px;
+    text-align: center;
+}

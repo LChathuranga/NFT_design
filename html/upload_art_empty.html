@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Details</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/nav_bar.css">
+    <link rel="stylesheet" href="../css/art_detail.css">
+    <link rel="stylesheet" href="../css/upload_art_empty.css">
+</head>
+<body>
+    <section>
+        <div id="navBar">
+            <div class="container">
+                <div class="navBar contain">
+                    <nav id="nav_bar">
+                      <div class="logo">
+                          <img src="../src/logos/logo.png" width="50.2" height="63.26" alt="">
+                          <p class="logo_txt">NFT</p>
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" onclick="show()" width="16" height="16" fill="currentColor" class="bi bi-list-nested" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                      <div id="nav_item">
+                          <ul class="nav_links">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle close" onclick="closeBtn()" viewBox="0 0 16 16">
+                              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                              <li class="nav-item">
+                                <a class="home_link" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link1" href="#">NFT부동산</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link1" href="#">NFT마켓플레이스</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link1">고객센터</a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="nav_last">
+                          <button class="nav_btn">Upload Work</button>
+                          <div>
+                            <img src="../src/icons/Vector.png" width="22px" height="22px" alt="">
+                          </div>
+                      </div>
+                  </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row first_line">
+            <div class="col-md-6 col-sm-12 drag_drop">
+                <div class="drag_icon">
+                    <img src="../src/icons/Vector8.png" alt="">
+                </div>
+                <div class="drop_title">
+                    <p>Drag or Drop an Image</p>
+                </div>
+                <div class="drop_txt">
+                    <p>2000 x 2000px PNG or JPG files recommended</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 f_txt" style="padding-left: 70px;">
+                <p>Item Title</p>
+                <div class="row item_title shadow">
+                    <p>Enter item title</p>
+                </div>
+                <p>Description</p>
+                <div class="description shadow">
+                    <p>Tell us about your items</p>
+                </div>
+                <div class="row">
+                    <div class="col-6 bid">
+                        <p>Open Bid</p>
+                        <div class="col-6 bid_box shadow">
+                            <div class="row">
+                                <div class="col-6 box_txt">
+                                    <p>e.g 0.2</p>
+                                </div>
+                                <div class="col-6 box_txt">
+                                    <h3>ETH</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 bid">
+                        <p>Listing Price</p>
+                        <div class="col-6 bid_box shadow">
+                            <div class="row">
+                                <div class="col-6 box_txt">
+                                    <p>e.g 0.2</p>
+                                </div>
+                                <div class="col-6 box_txt">
+                                    <h3>ETH</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="position: relative;">
+                    <div class="col-6">
+                        <div class="col-6 bid_btn shadow">
+                            <div class="row">
+                                <p>Schedule</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="col-6 bid_btn1 ">
+                            <div class="row">
+                                <p>Publish Now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+        <section class="footer">
+          <div class="container">
+            <div class="row bg_green">
+              <div class="footer_up">
+                <h1 id="footer_up_title">Stay in the loop on CryptoArt and NFTs</h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor 
+                  do amet sint. Velit officia consequat duis enim velit mollit.</p>
+              </div>
+              <div style="display: flex; justify-content: center;">
+                <div class="inputs">
+                  <input type="text" placeholder="Your Email">
+                  <button>Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hr"></div>
+          <div class="container" style="position: relative;">
+            <div class="row footer_down">
+              <div class="col-md-3 col-sm-12 col-xs-12">
+                <div style="display: flex; flex-direction: row; align-items: center;">
+                  <img src="../src/logos/logo.png" width="50px" height="63px" alt="">
+                  <p class="mt-3">NFTesia</p>
+                </div>
+                <div class="footer_txt">
+                  <p>A marketplace that sells various types of work by professional 
+                    designers and is paid with NFT tokens.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-12">
+                <p class="footer_k_txt">부동산</p>
+                <p class="footer_k_txt1">부동산 마켓</p>
+                <p class="footer_k_txt1">부동산 등록</p>
+              </div>
+              <div class="col-3 col-sm-3 col-xs-12">
+                <p class="footer_k_txt">마켓플레이스</p>
+                <p class="footer_k_txt1">등록</p>
+              </div>
+              <div class="col-3 col-sm-3 col-xs-12">
+                <p class="footer_k_txt">고객센터</p>
+                <p class="footer_k_txt1">공지사항</p>
+                <p class="footer_k_txt1">FAQ</p>
+                <p class="footer_k_txt1">1:1 문의</p>
+              </div>
+            </div>
+            <div class="row footer_copyright">
+              <p>@2020 TanahAir Studio. All rights reserved.</p>
+            </div>
+          </div>
+        </section>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        function show(){
+            document.querySelector(".nav_links").style.display = "block";
+        }
+        function closeBtn(){
+            document.querySelector(".nav_links").style.display = "none";
+        }
+    </script>
+</body>
+</html>`
